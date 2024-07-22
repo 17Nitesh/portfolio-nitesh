@@ -24,7 +24,7 @@ const Home  = () => {
                 <motion.h2 variants = {headings} className="lg:mr-16">Front-End Developer</motion.h2>
                 <motion.h2 variants={headings} className="lg:mr-16">Chemical Engineer</motion.h2>
                 <motion.h1 variants={headings}className="text-6xl lg:mr-16 mt-2 overflow-hidden"><span className="hover:text-nit-100 hover:text-7xl">Hello</span> <span className="hover:text-nit-100 hover:text-7xl">I'm <br /></span> <span className="text-7xl lg:text-8xl text-nit-100 hover:text-white hover:text-9xl"><b><Typewriter text="Nitesh" delay={400} infinite /></b></span></motion.h1>
-                <motion.p variants={headings} className="ml-10 lg:mr-16 mt-4 font-sans">I am a Chemical Engineering student from IIT Jammu, and served as Head of the Network and Security Department of Coding Club IIT Jammu from August 2023 to August 2024.</motion.p>
+                <motion.p variants={headings} className="lg:ml-10 lg:mr-16 mt-4 font-sans">I am a Chemical Engineering student from IIT Jammu, and served as Head of the Network and Security Department of Coding Club IIT Jammu from August 2023 to August 2024.</motion.p>
                 <motion.div variants={headings} className="flex gap-4 place-content-center md:place-content-end mr-0 mt-4 md:mr-16">
                 <button className="">
                     <a href="https://github.com/17Nitesh"><FaGithubSquare style = {style}/></a>
