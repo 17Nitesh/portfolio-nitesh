@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  overflow-x: hidden;
+}
+/* #03ff9a */
+.logo{
+  color: #03ff9a;
+}
+.About{
+  margin-bottom: 25vh;
+
+}
+#About{
+  @media (max-width:600px){
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.Home{
+  margin-bottom: 25vh;
+}
+
+
+
+.hel{
+  overflow: hidden;
+  @media (max-width:600px){
+    overflow: hidden;
+  }
+  
+}
+#Contacts{
+  @media (max-width:600px){
+    display: block;
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+
