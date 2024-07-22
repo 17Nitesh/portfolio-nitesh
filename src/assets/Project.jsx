@@ -17,7 +17,7 @@ const Project = () => {
                     transition={{ duration: 0.5 }}
                     className="textContainer text-center overflow-hidden"
                 >
-                    <h1 className="text-6xl font-bold text-white mb-8 overflow-hidden"><span>ERR <span className='text-nit-100 font-mono hover:text-white'>404</span></span><br /> <motion.span className="text-nit-100 font-mono text-8xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-950 hover:to-nit-100 hover:cursor-pointer"
+                    <h1 className="text-6xl font-bold text-white mb-8 overflow-hidden"><span>ERR <span className='text-nit-100 font-mono hover:text-white'>404</span></span><br /> <motion.span className="text-nit-100 font-mono text-7xl lg:text-8xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-950 hover:to-nit-100 hover:cursor-pointer"
 
                     >Projects</motion.span><br />Not Found</h1>
                     <motion.button
