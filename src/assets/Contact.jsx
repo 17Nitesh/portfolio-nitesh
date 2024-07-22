@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
 
       {/* Text Container */}
-      <div className="w-full md:w-1/2 px-4 overflow-hidden mr-4">
+      <div className="w-full md:w-1/2 px-4 overflow-hidden mr-[10vw]">
         <h2 className=' z-10 relative text-7xl overflow-hidden text-right font-mono text-white'><motion.span className=' hover:text-nit-100 hover:text-8xl'
         ><b>Contact me</ b></motion.span></h2>
         <p className="text-nit-100 text-4xl text-right mt-8 overflow-hidden">Do you speak <br /><b className='text-5xl text-white font-mono hover:text-nit-100 hover:text-6xl transition-transform'>Parseltongue</b><br />It's Ok if you don't,<br />I speak <b className='font-mono text-white'>English</b> too.</p>
