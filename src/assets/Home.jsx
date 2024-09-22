@@ -23,17 +23,17 @@ const Home  = () => {
             <motion.div className="text-white text-center md:text-right overflow-hidden" variants={headings} initial="initial" animate="animate" >
                 <motion.h2 variants = {headings} className="lg:mr-16">Front-End Developer</motion.h2>
                 <motion.h2 variants={headings} className="lg:mr-16">Chemical Engineer</motion.h2>
-                <motion.h1 variants={headings}className="text-6xl lg:mr-16 mt-2 overflow-hidden"><span className="hover:text-nit-100 hover:text-7xl">Hello</span> <span className="hover:text-nit-100 hover:text-7xl">I'm <br /></span> <span className="text-7xl lg:text-8xl text-nit-100 hover:text-white hover:text-9xl"><b><Typewriter text="Nitesh" delay={400} infinite /></b></span></motion.h1>
+                <motion.h1 variants={headings}className="text-6xl lg:mr-16 mt-2 overflow-hidden"><span className="hover:text-nit-100 hover:text-7xl">Hello</span> <span className="hover:text-nit-100 hover:text-7xl transition-all">I'm <br /></span> <span className="text-7xl lg:text-8xl text-nit-100 hover:text-white hover:text-9xl transition-all"><b><Typewriter text="Nitesh" delay={400} infinite /></b></span></motion.h1>
                 <motion.p variants={headings} className="lg:ml-10 lg:mr-16 mt-4 font-sans">I am a Chemical Engineering student from IIT Jammu, and served as Head of the Network and Security Department of Coding Club IIT Jammu from August 2023 to August 2024.</motion.p>
                 <motion.div variants={headings} className="flex gap-4 place-content-center md:place-content-end mr-0 mt-4 md:mr-16">
                 <button className="">
-                    <a href="https://github.com/17Nitesh"><FaGithubSquare style = {style}/></a>
+                    <a href="https://github.com/17Nitesh"><FaGithubSquare className = "text-nit-100 text-5xl hover:text-6xl hover:text-white transition-all"/></a>
                 </button>
                 <button className="">
-                    <a href="https://www.instagram.com/n.bhardwaj_04"><FaInstagram style = {style}/></a>
+                    <a href="https://www.instagram.com/n.bhardwaj_04"><FaInstagram className = "text-nit-100 text-5xl hover:text-6xl hover:text-white transition-all"/></a>
                 </button>
                 <button className="">
-                    <a href="https://www.linkedin.com/in/nitesh-bhardwaj-87294a252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedinIn style = {style}/></a>
+                    <a href="https://www.linkedin.com/in/nitesh-bhardwaj-87294a252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedinIn className = "text-nit-100 text-5xl hover:text-6xl hover:text-white transition-all"/></a>
                 </button>
                 </motion.div>
             </motion.div>
